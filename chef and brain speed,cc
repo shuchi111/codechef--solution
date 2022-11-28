@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int threshold=0,current=0;
+	cin>>threshold>>current;
+	if(current>threshold)
+	cout<<"YES"<<endl;
+	else
+	cout<<"NO"<<endl;
+	return 0;
+}
