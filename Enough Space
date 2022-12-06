@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void problemSolution()
+{
+  long long n, x, y;
+  cin >> n >> x >> y;
+  if(x + (2 * y) <= n) cout << "YES" << "\n";
+  else cout << "NO" << "\n";
+}
+
+void testCases()
+{
+  ios::sync_with_stdio(0);
+  cin.tie(0);
+  int tt;
+  cin >> tt;
+  while(tt--)
+  {
+    problemSolution();
+  }
+}
+
+int main()
+{
+  testCases();
+  // problemSolution();
+  return 0;
+}
