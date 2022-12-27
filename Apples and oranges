@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b,x;
+    cin>>x>>a>>b;
+    if(x>=(a+b))
+    cout<<"yes";
+    else
+    cout<<"no";
+	// your code goes here
+	return 0;
+}
