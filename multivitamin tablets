@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,a,b;
+	cin>>t;
+	while(t--){
+	    cin>>a>>b;
+	    string g;
+	    g = ((a*3)<=b)?("YES"):("NO");
+	    cout<<g<<endl;
+	}
+	return 0;
+}
